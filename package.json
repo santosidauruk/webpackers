@@ -7,6 +7,8 @@
   "license": "MIT",
   "scripts": {
     "log": "yarn build --env=1 --bail=true",
+    "build:dev": "yarn build --env=dev",
+    "build:prod": "yarn build --env=prod",
     "watch": "yarn build --watch",
     "build": "webpack"
   },
@@ -14,6 +16,7 @@
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14"
+    "webpack-cli": "^2.0.14",
+    "webpack-merge": "^4.1.2"
   }
 }
